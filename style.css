@@ -1,0 +1,34 @@
+html,body{
+    height:100%;
+    width:100%;
+}
+
+body {
+    margin: 0px;
+}
+
+
+nav {
+    height:40px;
+    padding:8px;
+    display:flex;
+    align-items: center;
+}
+
+* {
+    font-family : "Roboto", sans-serif;
+    color: white;
+}
+
+.content {
+    padding:16px;
+}
+
+.background-color-primary {
+    background-color: #2F3136;
+}
+
+.background-color-secondary{
+    background-color: #202225;
+}
+
