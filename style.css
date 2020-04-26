@@ -1,27 +1,76 @@
+* {
+    font-family : "Roboto", sans-serif;
+    color: white;
+}
+
 html,body{
     height:100%;
     width:100%;
 }
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
 
 nav {
-    height:40px;
-    padding:8px;
+    height:50px;
     display:flex;
     align-items: center;
+    overflow:hidden;
 }
 
-* {
-    font-family : "Roboto", sans-serif;
-    color: white;
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    float:left;
+    
+}
+
+nav ul li a {
+    padding:16px;
+}
+
+nav ul li a:hover {
+    background-color: #6D81CA ;
+}
+
+.card{
+    width:300px;
+    height:400px;
+    margin:16px;
+}
+
+.card-media-container{
+    height:40%;
+    width:100%;
+    background-color: #36393F;
+}
+
+.card-media{
+    height:100%;
+    width:100%;
+}
+
+.active-link{
+    background-color:#EF5859 !important;
 }
 
 .content {
-    padding:16px;
+    padding:32px;
+}
+
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .background-color-primary {
