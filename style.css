@@ -100,10 +100,45 @@ nav ul li a:hover {
 
 .title{
     text-align:center;
+    font-style:italic;
 }
 
 .responsive-16-9{
     height:0;
     padding-top:56.25%;
     width:100%;
+    position:relative;
 }
+
+.responsive-embed{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+@media (min-width: 576px) { 
+    .centered-content{
+        width:100%;
+    }
+
+ }
+
+@media (min-width: 768px) { 
+    .centered-content{
+        width:80%;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .centered-content{
+        width:70%;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .centered-content{
+        width:40%;
+    }
+ }
