@@ -42,6 +42,7 @@ nav ul li a:hover {
     background-color: #6D81CA ;
 }
 
+
 .card{
     width:300px;
     height:400px;
@@ -55,8 +56,11 @@ nav ul li a:hover {
 }
 
 .card-media{
-    height:100%;
-    width:100%;
+    height:80%;
+    width:80%;
+    margin:auto;
+    display:block;
+    padding:16px;
 }
 
 .active-link{
@@ -64,6 +68,11 @@ nav ul li a:hover {
 }
 
 .content {
+    padding:32px;
+}
+
+.centered-content{
+    margin:auto;
     padding:32px;
 }
 
@@ -81,3 +90,20 @@ nav ul li a:hover {
     background-color: #202225;
 }
 
+.card-text{
+    padding: 16px;
+}
+
+.card-text a {
+    color: #b08f26	;
+}
+
+.title{
+    text-align:center;
+}
+
+.responsive-16-9{
+    height:0;
+    padding-top:56.25%;
+    width:100%;
+}
