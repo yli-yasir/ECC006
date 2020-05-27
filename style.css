@@ -154,6 +154,18 @@ th, td {
     padding: 8px;
   }
 
+.js-alert{
+    position:absolute;
+    bottom:16px;
+    left: 16px;
+    padding:8px;
+    height:24px;
+    width:200px;
+    opacity: 0;
+    background-color:#EF5859;
+    transition: opacity 4s;
+}
+
 
 
 @media (min-width: 576px) { 
