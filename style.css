@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+p{
+    font-size: 1.4em;
+}
+
 nav {
     height:50px;
     display:flex;
@@ -38,10 +42,24 @@ nav ul li a {
     padding:16px;
 }
 
+p a{
+    color: #6D81CA
+}
+
+textarea{
+    color: black;
+}
 nav ul li a:hover {
     background-color: #6D81CA ;
 }
 
+.blue {
+    color: #6D81CA
+}
+
+.bg-blue {
+    background-color: #6D81CA;
+}
 
 .card{
     width:300px;
@@ -69,6 +87,11 @@ nav ul li a:hover {
 
 .content {
     padding:32px;
+}
+
+.description {
+    text-align: justify;
+    margin-top: 36px;
 }
 
 .centered-content{
@@ -117,6 +140,21 @@ nav ul li a:hover {
     top:0;
     left:0;
 }
+
+table{
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid #EF5859;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+  }
+
+
 
 @media (min-width: 576px) { 
     .centered-content{
