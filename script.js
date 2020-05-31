@@ -1,7 +1,6 @@
 
 onload = () => {
     const alert = document.querySelector(".js-alert");
-    console.log(alert)
 
   setTimeout(() => {
     alert.style.opacity = 1;
